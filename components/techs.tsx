@@ -1,6 +1,6 @@
 import { DiHtml5, DiCss3, DiJsBadge, DiReact } from "react-icons/di";
 import { GiOctopus } from "react-icons/gi";
-import { SiJest, SiTailwindcss, SiMui } from "react-icons/si";
+import { SiJest, SiTailwindcss, SiMui , SiTypescript} from "react-icons/si";
 
 export const techs = [
   {
@@ -26,6 +26,12 @@ export const techs = [
     logo: <DiJsBadge color="#F0E434 " fontSize={80} />,
     alt: "logo Javascript",
     ombre: "shadow-[#F0E434]",
+  },
+  {
+    name: "Typescript",
+    logo: <SiTypescript color="#292EC4" fontSize={80} />,
+    alt: "logo Typescript",
+    ombre: "shadow-[#292EC4]",
   },
   {
     name: "React",
