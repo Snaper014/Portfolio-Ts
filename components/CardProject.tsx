@@ -35,7 +35,8 @@ export const CardProject = ({
           {description}
         </p>
         <div className="w-full max-sm:mb-7 max-sm:flex-col flex items-center justify-evenly flex-row flex-nowrap">
-          <a
+          {GithubLink !== '' ?
+           <a
             href={`${GithubLink}`}
             target="_blank"
             className="max-sm:mb-2"
@@ -44,12 +45,14 @@ export const CardProject = ({
           >
             <DiGithubBadge color="black" fontSize={50} />
           </a>
+            : null
+          }
           <a
             href={`${link}`}
             target="_blank"
             rel="noopener noreferrer"
             aria-label={`link towards the website ${title}`}
-            className="w-[30%] max-sm:w-11/12 self-center mt-[10px] text-center text-[24px] px-4 py-2 rounded-[40px] bg-black tracking-wide font-[500] text-white mx-2"
+            className={`w-[${GithubLink === '' ? '50%' :  '30%'}] max-sm:w-11/12 self-center mt-[10px] text-center text-[24px] px-4 py-2 rounded-[40px] bg-black tracking-wide font-[500] text-white mx-2`}
           >
             Lien vers le site
           </a>
