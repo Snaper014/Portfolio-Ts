@@ -46,7 +46,7 @@ function Project() {
         image={PictureFlag}
         title="FrontEnd Mentor API Flag"
         GithubLink="https://github.com/Snaper014/challenge-frontend-mentor"
-        link="https://challenge-frontend-mentor-sand.vercel.app/"
+        link="https://challenge-frontend-mentor-rho.vercel.app/"
         description="Le projet REST Countries API Flag est une application Web qui
         fournit une collection complète de drapeaux du monde entier. Les
         utilisateurs peuvent filtrer les drapeaux par région et effectuer
